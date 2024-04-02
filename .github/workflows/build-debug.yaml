@@ -93,7 +93,7 @@ jobs:
 
       - name: 安装Flutter
         if: steps.cache-flutter.outputs.cache-hit != 'true'
-        uses: subosito/flutter-action@v2.10.0
+        uses: subosito/flutter-action@v2.16.0
         with:
           cache: true
           flutter-version: 3.16.5
